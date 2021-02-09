@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portfolio, dnb, web developer">
+    <meta name="description" content="Web development and design">
+    <meta name="author" content="dnb">
+
+    <title>DnbPortfolio.com</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/optimized-dooyong-cartoon.jpg" type="image/jpg">
+
+    <script src="js/font_awesome.js"> </script>
+
+</head>
+<body>
+    
+<div class="container-wrapper">
+    <div class="wrapper">  
+        <div class="flex-container">
+            <header>  
+                <a href="index.html" id="logo">dnb</a>
+                <nav>
+                    <ul>
+                        <li><a href="#" id="project">Projects</a></li>
+                    </ul> 
+                </nav>
+                <div class="bars-container">
+                    <span class="bars"></span>
+                    <span class="bars"></span>
+                    <span class="bars"></span>
+                </div>
+            </header>
+            <div class="about-section">
+                <div class="img-section-flex">
+                    <div class="img_container">
+                        <img src="images/optimized-dooyong-cartoon.jpg" width="150px" >
+                    </div>
+                    <section>
+                        <h1>Hi there, I'm dnbworks</h1>
+                        <p>junior Software engineer </p>
+                        <div class="border"></div>
+                    </section>
+                </div>
+                <div class="text_container">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, similique. Tempora modi quas magnam ullam! Accusamus unde quae minus! Ducimus voluptatibus consequuntur pariatur a fugiat.</p>
+                    <a href="#">Resume</a>
+                   
+                        <div class="skills">
+                            <h3>Skills</h3>
+                            <div class="border"></div>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javacript / ES6</li>
+                            <li>Jquery</li>
+                            <li>Bootstrap</li>
+                            <li>React & Redux</li>
+                            <li>Ajax</li>
+                            <li>Json</li>
+                            <li>Sass</li>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>npm</li>
+                            <li>Responsive Design</li>
+                            <li>Adobe cc</li>
+                            <li>PHP</li>
+                            <li>MYSQL</li>
+                            <li>Laravel</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; copyright 2021</p>
+        </footer>
+        
+</div>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+    $(document).ready(function(){
+            $('.slider').slick({
+                dots: true,
+                infinite:true,
+                speed:300,
+                adaptiveHeight:true,
+                prevArrow:".slider-container .left",
+                nextArrow:".slider-container .right",
+            });
+        });
+</script>
+</body>
+</html>
